@@ -78,6 +78,8 @@ nav li a {
 }
 
 /* media queries */
+
+/* mobile or small device */
 @media screen and (max-width:576px) {
     .nav-container {
         flex-direction: column;
@@ -99,4 +101,23 @@ nav li a {
         font-size: 1rem;
     }
 
+}
+
+/* Ipad or medium device */
+@media screen and (min-width:576px) and (max-width:992px) {
+    .nav-title {
+        font-size: 1.5rem;
+    }
+
+    .banner {
+        margin: 50px;
+    }
+
+    .banner-title {
+        font-size: 2.2rem;
+    }
+
+    .banner-para {
+        font-size: 1.2rem;
+    }
 }
