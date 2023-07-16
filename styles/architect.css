@@ -52,6 +52,10 @@ nav li a {
 }
 
 .banner {
+    margin: 40px 240px;
+}
+
+.banner-description {
     text-align: center;
 }
 
@@ -65,12 +69,34 @@ nav li a {
     font-size: 1.2rem;
     color: #727272;
     margin-bottom: 30px;
-}
-
-.banner-image {
-    margin: 40px 240px;
+    width: fit-content;
 }
 
 .banner-image>img {
+    margin-top: 50px;
     width: 100%;
+}
+
+/* media queries */
+@media screen and (max-width:576px) {
+    .nav-container {
+        flex-direction: column;
+    }
+
+    .nav-title {
+        font-size: 1.5rem;
+    }
+
+    .banner {
+        margin: 20px;
+    }
+
+    .banner-title {
+        font-size: 2rem;
+    }
+
+    .banner-para {
+        font-size: 1rem;
+    }
+
 }
