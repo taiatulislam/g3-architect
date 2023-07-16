@@ -1,0 +1,76 @@
+/* font work sans from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Work+Sans:wght@500;600;700;800;900&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.primary-button {
+    padding: 20px 30px;
+    background-color: #FF900E;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.header {
+    background-color: rgba(255, 144, 14, 0.10);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.nav-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #131313;
+
+}
+
+nav>ul {
+    display: flex;
+}
+
+
+nav ul li {
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 1.25;
+    color: #424242;
+}
+
+.banner {
+    text-align: center;
+}
+
+.banner-title {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+}
+
+.banner-para {
+    font-size: 1.2rem;
+    color: #727272;
+    margin-bottom: 30px;
+}
+
+.banner-image {
+    margin: 40px 240px;
+}
+
+.banner-image>img {
+    width: 100%;
+}
