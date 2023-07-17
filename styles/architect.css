@@ -7,6 +7,21 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
+/* Common shared style */
+.color-gray {
+    color: #727272;
+}
+
+.color-orange {
+    color: #FF900E;
+}
+
+.primary-para {
+    color: #727272;
+    font-size: 1rem;
+    margin-bottom: 32px;
+}
+
 .primary-button {
     padding: 20px 30px;
     background-color: #FF900E;
@@ -15,30 +30,29 @@ body {
     border-radius: 5px;
 }
 
+/* Header section */
 .header {
     background-color: rgba(255, 144, 14, 0.10);
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 60px;
 }
 
 .nav-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 70px;
+    padding-bottom: 50px;
 }
 
 .nav-title {
     font-size: 2.8rem;
     font-weight: 700;
     color: #131313;
-
 }
 
 nav>ul {
     display: flex;
 }
-
 
 nav ul li {
     list-style: none;
@@ -52,11 +66,12 @@ nav li a {
 }
 
 .banner {
-    margin: 40px 240px;
+    padding: 0 100px;
+    text-align: center;
 }
 
 .banner-description {
-    text-align: center;
+    padding: 40px 220px;
 }
 
 .banner-title {
@@ -65,22 +80,44 @@ nav li a {
     color: #131313;
 }
 
-.banner-para {
-    font-size: 1.2rem;
-    color: #727272;
-    margin-bottom: 30px;
-    width: fit-content;
-}
-
 .banner-image>img {
-    margin-top: 50px;
     width: 100%;
 }
+
+/* Feature section */
+.team {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 90px;
+    gap: 35px;
+}
+
+.team-image-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 40px;
+}
+
+.team-title {
+    font-size: 2.8;
+    font-weight: 700;
+    color: #131313;
+}
+
+.quick-list {
+    font-weight: 500;
+}
+
+
 
 /* media queries */
 
 /* mobile or small device */
 @media screen and (max-width:576px) {
+
+    /* header section */
     .nav-container {
         flex-direction: column;
     }
@@ -90,7 +127,11 @@ nav li a {
     }
 
     .banner {
-        margin: 20px;
+        padding: 0px;
+    }
+
+    .banner-description {
+        padding: 20px 20px;
     }
 
     .banner-title {
@@ -101,6 +142,10 @@ nav li a {
         font-size: 1rem;
     }
 
+    .banner-image {
+        width: 90%;
+        margin: auto;
+    }
 }
 
 /* Ipad or medium device */
@@ -110,7 +155,11 @@ nav li a {
     }
 
     .banner {
-        margin: 50px;
+        padding: 0px;
+    }
+
+    .banner-description {
+        padding: 20px 70px;
     }
 
     .banner-title {
@@ -119,5 +168,10 @@ nav li a {
 
     .banner-para {
         font-size: 1.2rem;
+    }
+
+    .banner-image {
+        width: 90%;
+        margin: auto;
     }
 }
