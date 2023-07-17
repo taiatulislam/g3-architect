@@ -125,11 +125,11 @@ nav li a {
 
 .box {
     text-align: center;
-    padding: 30px;
+    padding: 50px 30px;
     border-radius: 8px;
     border: 1px solid #FF900E;
-    max-width: 250px;
-    max-height: 250px;
+    min-width: 150px;
+    min-height: 75px;
 }
 
 .box-title {
@@ -231,5 +231,6 @@ nav li a {
         display: grid;
         gap: 10px;
         grid-template-columns: repeat(2, 1fr);
+        margin-top: 40px;
     }
 }
