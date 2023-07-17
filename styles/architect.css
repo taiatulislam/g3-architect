@@ -296,14 +296,34 @@ nav li a {
     .feature {
         flex-direction: column;
         margin: 0;
+        padding: 40px;
+    }
+
+    .experience {
+        padding: 10px;
+        left: 90px;
+    }
+
+    .experience>h2 {
+        font-size: 2rem;
+        font-weight: 700;
+        margin-top: 0px;
+        margin-bottom: 5px;
+    }
+
+    .experience>p {
+        margin-top: 0;
+        font-size: 1rem;
+        font-weight: 500;
     }
 
     .fact {
         padding: 0;
+        margin-top: -50px;
     }
 
     .fact-description {
-        padding: 40px;
+        padding: 0 40px;
     }
 
     .award-container {
@@ -371,7 +391,7 @@ nav li a {
 
     .feature-box {
         margin: auto;
-        margin-bottom: 20px;
+        margin-top: 30px;
     }
 
     .feature-image {
@@ -380,8 +400,9 @@ nav li a {
     }
 
     .fact {
-        padding: 40px;
+        padding: 0 40px;
         margin: 0;
+        margin-top: -40px;
     }
 
     .award-container {
