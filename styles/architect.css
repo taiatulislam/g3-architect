@@ -172,6 +172,20 @@ nav li a {
 }
 
 
+/* Footer section */
+.footer {
+    text-align: center;
+    border-radius: 8px;
+    background: #FFF4E7;
+    margin: 130px 240px 210px 240px;
+}
+
+.footer-para {
+    font-size: 1.25rem;
+    color: #424242;
+    padding: 40px 100px;
+}
+
 /* media queries */
 
 /* mobile or small device */
@@ -225,10 +239,20 @@ nav li a {
 
     .sponser-container {
         flex-direction: column;
+        margin-bottom: 50px;
     }
 
     .sponser-container>img {
         margin-bottom: 30px;
+    }
+
+    .footer {
+        margin: 0;
+    }
+
+    .footer-para {
+        font-size: 1rem;
+        padding: 5px;
     }
 }
 
@@ -273,5 +297,9 @@ nav li a {
 
     .sponser {
         margin-top: 70px;
+    }
+
+    .footer {
+        margin: 0;
     }
 }
